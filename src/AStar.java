@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-public class Algorithm {
+public class AStar {
     
     public String getShortestPath(ArrayList<Node> nodes, Node start, Node finish) {
         if(start.equals(finish))
