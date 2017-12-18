@@ -11,7 +11,7 @@ public class Test {
             }
         }
         
-        Algorithm algorithm = new Algorithm();
+        AStar algorithm = new AStar();
         System.out.println(algorithm.getShortestPath(list, list.get(0), list.get(list.size() -1)));
         
     }
